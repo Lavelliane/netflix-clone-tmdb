@@ -35,7 +35,7 @@ function loginAccount(e) {
     emailExists(emailFieldLogin) &&
     securityCheck(emailFieldLogin, passwordFieldLogin) === "PASSED"
   ) {
-    window.location.href = "/pages/dashboard.html";
+    window.location.href = "../pages/dashboard.html";
   } else {
     alert("Incorrect Email or Password");
   }
